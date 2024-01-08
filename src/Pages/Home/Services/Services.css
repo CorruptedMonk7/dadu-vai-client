@@ -1,0 +1,9 @@
+.bg-image {
+    background-image: url("https://images.pexels.com/photos/1454794/pexels-photo-1454794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+
+}
+
+.bt-color {
+    background-color: rgb(250, 145, 145);
+}
