@@ -5,7 +5,7 @@ import "./Services.css"
 const Services = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5000/services")
+        fetch("https://dadu-vai-server.vercel.app/services")
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
@@ -22,7 +22,6 @@ const Services = () => {
                             key={service.id}
                             service={service}
                         >
-
                         </ServicesCard>)
                 }
             </div>

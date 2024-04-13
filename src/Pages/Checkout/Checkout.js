@@ -27,7 +27,7 @@ const Checkout = () => {
         //     alert('Phone number should be 10 characters')
         // }
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://dadu-vai-server.vercel.app/orders', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
